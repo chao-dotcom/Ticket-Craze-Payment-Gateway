@@ -1,0 +1,19 @@
+# Terraform Variables Example
+# Copy this file to terraform.tfvars and fill in your values
+# terraform.tfvars is already in .gitignore and will NOT be committed
+
+aws_region = "us-east-1"
+environment = "dev"
+app_port = 8080
+instance_type = "t3.micro"
+db_instance_class = "db.t3.micro"
+min_size = 1
+max_size = 3
+desired_capacity = 1
+
+# IMPORTANT: Set this via environment variable or terraform.tfvars (not committed)
+# db_password = "your-secure-password-here"
+
+# Example usage:
+# terraform apply -var="db_password=your-secure-password"
+

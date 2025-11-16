@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    show-sql: true
+  
+logging:
+  level:
+    com.yourname.paymentgateway: DEBUG
+    org.springframework.security: DEBUG
+
+app:
+  payment-processor:
+    success-rate: 1.0  # Always succeed in dev
+

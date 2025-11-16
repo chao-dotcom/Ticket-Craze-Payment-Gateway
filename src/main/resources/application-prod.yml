@@ -1,0 +1,18 @@
+spring:
+  jpa:
+    show-sql: false
+  
+logging:
+  level:
+    root: WARN
+    com.yourname.paymentgateway: INFO
+
+management:
+  endpoint:
+    health:
+      show-details: never
+
+app:
+  payment-processor:
+    success-rate: 0.95  # 95% in production
+
