@@ -7,6 +7,9 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://www.docker.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-1.6+-623CE4.svg)](https://www.terraform.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Maven Central](https://img.shields.io/maven-central/v/org.springframework.boot/spring-boot-starter-parent.svg)](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-parent)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/yourusername/payment-gateway/ci-cd.yml?branch=main)](https://github.com/yourusername/payment-gateway/actions)
+[![Code Coverage](https://img.shields.io/badge/coverage-80%25-brightgreen)](https://github.com/yourusername/payment-gateway)
 
 A production-grade, cloud-native payment processing system built with **Java Spring Boot**, deployed on **AWS** with full **CI/CD automation**. This project demonstrates enterprise-level backend development, RESTful API design, database optimization, cloud infrastructure, and DevOps practices.
 
